@@ -2,6 +2,15 @@
 
 A Stream Deck plugin that spreads the current [YouTube Music Desktop](https://ytmdesktop.app/) album art across a block of keys, so the cover shows up as one big picture. Supports 2x2 and 3x3 blocks and compensates for the gaps between keys.
 
+## Examples
+
+3x3 blocks on a Stream Deck:
+
+<p>
+  <img src="docs/example-1.png" alt="3x3 album art spread across nine keys, red and teal cover" width="280">
+  <img src="docs/example-2.png" alt="3x3 album art spread across nine keys, magenta cover" width="280">
+</p>
+
 ## Requirements
 
 - Stream Deck software 7.1 or newer (Windows)
