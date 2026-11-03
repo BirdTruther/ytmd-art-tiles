@@ -1,0 +1,28 @@
+﻿{
+	"$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+	"Name": "YTMD Art Tiles",
+	"Version": "0.1.0.0",
+	"Author": "Daddy",
+	"Category": "YTMD Art Tiles",
+	"CategoryIcon": "imgs/category-icon",
+	"UUID": "com.daddy.ytmd-art-tiles",
+	"Description": "Spreads the current YouTube Music Desktop album art across a 2x2 block of keys.",
+	"Icon": "imgs/plugin-icon",
+	"CodePath": "bin/plugin.js",
+	"SDKVersion": 2,
+	"Software": { "MinimumVersion": "6.9" },
+	"OS": [{ "Platform": "windows", "MinimumVersion": "10" }],
+	"Nodejs": { "Version": "20", "Debug": "enabled" },
+	"Actions": [
+		{
+			"Name": "Album Art Tile",
+			"UUID": "com.daddy.ytmd-art-tiles.tile",
+			"Icon": "imgs/action-icon",
+			"Tooltip": "One quarter of the current album art. Place four on a 2x2 block.",
+			"PropertyInspectorPath": "ui/tile.html",
+			"Controllers": ["Keypad"],
+			"States": [{ "Image": "imgs/key", "ShowTitle": false }]
+		}
+	]
+}
+

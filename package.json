@@ -1,0 +1,23 @@
+{
+	"name": "ytmd-art-tiles",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "rollup -c",
+		"watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.daddy.ytmd-art-tiles\""
+	},
+	"dependencies": {
+		"@elgato/streamdeck": "^3.0.4"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "*",
+		"@rollup/plugin-json": "*",
+		"@rollup/plugin-node-resolve": "*",
+		"@rollup/plugin-typescript": "*",
+		"@types/node": "*",
+		"rollup": "*",
+		"tslib": "*",
+		"typescript": "^5.9.3"
+	}
+}
