@@ -4,7 +4,7 @@ A Stream Deck plugin that spreads the current [YouTube Music Desktop](https://yt
 
 ## Requirements
 
-- Stream Deck software 6.9 or newer (Windows)
+- Stream Deck software 7.1 or newer (Windows)
 - YouTube Music Desktop with the companion server enabled
 
 ## Setup
@@ -21,7 +21,7 @@ Pressing any tile toggles play/pause.
 
 - **Keys stay blank:** make sure YouTube Music Desktop is running and a song is loaded, and that companion authorization is on. Pairing requests are rate-limited, so the plugin retries once a minute.
 - **Picture looks stretched or broken at the gaps:** adjust `GAP` in `src/tiles.ts` and rebuild.
-- Plugin logs are in `com.daddy.ytmd-art-tiles.sdPlugin/logs`.
+- Plugin logs are in `com.birdtruther.ytmd-art-tiles.sdPlugin/logs`.
 
 ## Building from source
 
@@ -30,10 +30,10 @@ Requires Node.js 20 or newer and the [Stream Deck CLI](https://docs.elgato.com/s
 ```bash
 npm install
 npm run build
-streamdeck link com.daddy.ytmd-art-tiles.sdPlugin
+streamdeck link com.birdtruther.ytmd-art-tiles.sdPlugin
 ```
 
-To produce an installable file: `streamdeck pack com.daddy.ytmd-art-tiles.sdPlugin`.
+To produce an installable file: `streamdeck pack com.birdtruther.ytmd-art-tiles.sdPlugin`.
 
 ## License
 

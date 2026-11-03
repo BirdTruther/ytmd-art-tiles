@@ -11,7 +11,7 @@ import type { YtmdClient } from "../ytmd";
 
 type Art = { id: string; dataUri: string } | null;
 
-@action({ UUID: "com.daddy.ytmd-art-tiles.tile" })
+@action({ UUID: "com.birdtruther.ytmd-art-tiles.tile" })
 export class ArtTile extends SingletonAction<TileSettings> {
 	private art: Art = null;
 

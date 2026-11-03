@@ -6,7 +6,7 @@
 		"strict": true,
 		"skipLibCheck": true,
 		"noEmit": false,
-		"outDir": "com.daddy.ytmd-art-tiles.sdPlugin/bin",
+		"outDir": "com.birdtruther.ytmd-art-tiles.sdPlugin/bin",
 		"types": ["node"]
 	},
 	"include": ["src/**/*.ts"]

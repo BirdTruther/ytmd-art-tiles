@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "rollup -c",
-		"watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.daddy.ytmd-art-tiles\""
+		"watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.birdtruther.ytmd-art-tiles\""
 	},
 	"dependencies": {
 		"@elgato/streamdeck": "^3.0.4"
